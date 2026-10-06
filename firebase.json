@@ -1,0 +1,39 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "quiz-system-d278b",
+          "appId": "1:714533896545:android:0c8833944f955ed573c520",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quiz-system-d278b",
+          "configurations": {
+            "android": "1:714533896545:android:0c8833944f955ed573c520",
+            "ios": "1:714533896545:ios:2237543008e7653773c520",
+            "macos": "1:714533896545:ios:2237543008e7653773c520",
+            "web": "1:714533896545:web:34b1a3394af9480973c520",
+            "windows": "1:714533896545:web:176c726b600d716673c520"
+          }
+        }
+      }
+    }
+  }
+}

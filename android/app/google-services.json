@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714533896545",
+    "project_id": "quiz-system-d278b",
+    "storage_bucket": "quiz-system-d278b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714533896545:android:0c8833944f955ed573c520",
+        "android_client_info": {
+          "package_name": "com.example.quizz_generator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodxOKptL2NUsmVzqrPHIl-qCOlX6OmEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
